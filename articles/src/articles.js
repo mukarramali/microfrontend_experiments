@@ -16,8 +16,8 @@ const articles = [
 export default function Articles() {
   return (
     <div>
-      {articles.map((article) => (
-        <div>
+      {articles.map((article, i) => (
+        <div key={i}>
           <h2>{article.title}</h2>
           <p>{article.content}</p>
         </div>

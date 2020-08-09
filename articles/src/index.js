@@ -5,7 +5,7 @@ import Articles from "./articles";
 function App() {
   return (
     <div>
-      <h1>Trending</h1>
+      <h1>Trending Articles by React</h1>
       <Articles />
     </div>
   );
