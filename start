@@ -1,0 +1,5 @@
+#!/bin/bash -x
+
+npm run build --prefix ./header/
+npm run build --prefix ./articles/
+open ./portal/index.html
